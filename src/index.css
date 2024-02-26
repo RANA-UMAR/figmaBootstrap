@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ .main {
+  -webkit-mask:
+    radial-gradient(60% 10% at top, transparent 98%, #fff) top / 100% 50% no-repeat,
+    radial-gradient(60% 10% at bottom, transparent 98%, #fff) bottom / 100% 50% no-repeat;
+  mask:
+    radial-gradient(60% 10% at top, transparent 98%, #fff) top / 100% 50% no-repeat,
+    radial-gradient(60% 10% at bottom, transparent 98%, #fff) bottom / 100% 50% no-repeat;
+    
+}
+
+.content {
+  position: relative;
+  /* z-index: 5; */
+  color: white;
+}
+
+.main{
+  /* overflow: hidden; */
+  
+  
+}
+
+.tutor{
+  margin-bottom: 5rem;
+}
+
+
